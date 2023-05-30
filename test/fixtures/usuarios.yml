@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  IDUbicacion: 1
+  Nombre: MyString
+  Apellido: MyString
+  CorreoElectronico: MyString
+  Contrasena: MyString
+  Telefono: MyString
+  EsAdmin: false
+
+two:
+  IDUbicacion: 1
+  Nombre: MyString
+  Apellido: MyString
+  CorreoElectronico: MyString
+  Contrasena: MyString
+  Telefono: MyString
+  EsAdmin: false

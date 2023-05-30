@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  IDPedido: 1
+  NumeroFactura: MyString
+  FechaFactura: 2023-05-29 23:57:14
+  Subtotal: 9.99
+  Impuestos: 9.99
+  Total: 9.99
+
+two:
+  IDPedido: 1
+  NumeroFactura: MyString
+  FechaFactura: 2023-05-29 23:57:14
+  Subtotal: 9.99
+  Impuestos: 9.99
+  Total: 9.99

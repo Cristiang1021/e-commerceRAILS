@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  IDUsuario: 1
+  IDProducto: 1
+  Comentario: MyString
+  FechaComentario: 2023-05-30 00:04:06
+
+two:
+  IDUsuario: 1
+  IDProducto: 1
+  Comentario: MyString
+  FechaComentario: 2023-05-30 00:04:06

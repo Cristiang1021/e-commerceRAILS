@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  IDUsuario: 1
+  FechaPedido: 2023-05-30 00:00:00
+  Subtotal: 9.99
+  Impuestos: 9.99
+  CostoEnvio: 9.99
+  Total: 9.99
+  TipoPago: MyString
+  EstadoPedido: MyString
+
+two:
+  IDUsuario: 1
+  FechaPedido: 2023-05-30 00:00:00
+  Subtotal: 9.99
+  Impuestos: 9.99
+  CostoEnvio: 9.99
+  Total: 9.99
+  TipoPago: MyString
+  EstadoPedido: MyString

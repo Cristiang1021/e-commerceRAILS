@@ -1,0 +1,56 @@
+default: &default
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  adapter: mysql2
+  encoding: utf8
+  database: zapateria
+  username: root
+  password:
+  host: localhost
+
+test:
+  <<: *default
+  adapter: mysql2
+  encoding: utf8
+  database: zapateria
+  username: root
+  password:
+  host: localhost
+
+production:
+  <<: *default
+  adapter: mysql2
+  encoding: utf8
+  database: zapateria
+  username: root
+  password:
+  host: localhost
+
+development_postgresql:
+  <<: *default
+  adapter: postgresql
+  encoding: utf8
+  database: zapateriaclon
+  username: postgres
+  password: admin
+  host: localhost
+
+test_postgresql:
+  <<: *default
+  adapter: postgresql
+  encoding: utf8
+  database: zapateriaclon
+  username: postgres
+  password: admin
+  host: localhost
+
+production_postgresql:
+  <<: *default
+  adapter: postgresql
+  encoding: utf8
+  database: zapateriaclon
+  username: postgres
+  password: admin
+  host: localhost
